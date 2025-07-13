@@ -64,6 +64,12 @@ String newStr = sb.toString();
 
 newStr.replace("cd", ""); // "abef"
 
+newStr.indexOf("be"); // 1
+newStr.indexOf("xyz"); // -1
+
+newStr.substring(1); // "bef" (beginIndex)
+newStr.substring(1, 3); // "be" (beginIndex ~ endIndex)
+
 newStr.charAt(2); // e
 ```
 
