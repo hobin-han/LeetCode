@@ -1,0 +1,79 @@
+# HashSet
+```java
+Set<Integer> set = new HashSet<Integer>();
+
+set.add(2);
+set.add(2); // will be ignored
+set.contains(3); // false
+set.remove(2);
+set.size(); // 0
+set.isEmpty(); // true
+```
+
+# ArrayList
+```java
+List<Integer> list = new ArrayList<Integer>();
+
+list.add(1);
+list.add(2);
+list.add(3);
+list.add(1, 4); // [1, 4, 2, 3]
+
+list.get(0); // 1
+
+list.remove(1); // [1, 2, 3];
+
+list.indexOf(3); // 2
+
+list.size(); // 3
+list.isEmpty(); // false
+```
+
+# HashMap
+```java
+Map<String, Integer> map = new HashMap<>();
+
+map.put("banana", 3);
+map.put("apple", 5);
+map.put("banana", 7);
+map.get("banana"); // 7
+map.remove("apple");
+map.containsKey("apple"); // false
+```
+
+# String
+```java
+String str = "abc";
+str += "def"; // "abcdef"
+
+str.replace("cd", ""); // "abef"
+```
+
+# Type conversion
+```java
+// String to Numbers
+String sNum = "123";
+
+Integer.parseInt(sNum); // String -> Integer
+Integer.valueOf(sNum); // String -> Integer
+double d_num = Double.valueOf(sNum); // String -> Double
+float f_num = Float.valueOf(sNum); // String -> Float
+```
+
+```java
+// Numbers to String
+int num = 123;
+
+num + ""; // Integer -> String
+Integer.toString(num); // Integer -> String
+String.valueOf(num); // Integer -> String
+```
+
+```java
+// Numbers to Numbers
+int intNum = 123;
+double dNum = (double)intNum;
+float fNum = (float)intNum;
+int iNum = (int)dNum;
+```
+
