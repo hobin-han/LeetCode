@@ -1,7 +1,10 @@
 // https://leetcode.com/problems/longest-common-prefix?envType=problem-list-v2&envId=array
 
-// Time Complexity: O(n * m)
-// Space Complexity: O(m)
+/*
+[My Solution] Beats 63.57%
+Time Complexity: O(n * m)
+Space Complexity: O(m)
+*/
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String minStr = strs[0];
@@ -21,4 +24,22 @@ class Solution {
             sb.append(minStr.charAt(i));
         }
         return sb.toString();
-}}
+    }
+}
+
+/*
+[Others' Solution] Beats 100%
+Time Complexity: O(n * m)
+Space Complexity: O(m)
+*/
+class Solution {
+    public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0) return "";
+        
+        String prefix = strs[0];
+        for (String s : strs)
+            while (s.indexOf(prefix) != 0)
+                prefix = prefix.substring(0, prefix.length() - 1);
+        return prefix;
+    }
+}
