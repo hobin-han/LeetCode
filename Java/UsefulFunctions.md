@@ -21,8 +21,8 @@ list.add(1, 4); // [1, 4, 2, 3]
 
 list.get(0); // 1
 
-list.remove(1); // [1, 2, 3]
-list.remove(Integer.valueOf(2)); // [1, 3] (value 2 removed)
+list.remove(1); // [1, 2, 3] (The value at index 2 was removed)
+list.remove(Integer.valueOf(2)); // [1, 3] (The value `2` was removed)
 
 Collections.sort(list, Collections.reverseOrder()); // [3, 1]
 
