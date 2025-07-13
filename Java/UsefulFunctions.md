@@ -60,11 +60,11 @@ str += "def"; // "abcdef"
 // use below rather than += String
 StringBuilder sb = new StringBuilder();
 sb.append("abc").append("def");
-String result = sb.toString();
+String newStr = sb.toString();
 
-str.replace("cd", ""); // "abef"
+newStr.replace("cd", ""); // "abef"
 
-str.charAt(2); // e
+newStr.charAt(2); // e
 ```
 
 # Type conversion
