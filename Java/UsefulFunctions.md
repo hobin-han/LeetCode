@@ -63,6 +63,8 @@ sb.append("abc").append("def");
 String result = sb.toString();
 
 str.replace("cd", ""); // "abef"
+
+str.charAt(2); // e
 ```
 
 # Type conversion
