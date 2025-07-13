@@ -1,5 +1,7 @@
 // https://leetcode.com/problems/longest-common-prefix?envType=problem-list-v2&envId=array
 
+// Time Complexity: O(n * m)
+// Space Complexity: O(m)
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String minStr = strs[0];
