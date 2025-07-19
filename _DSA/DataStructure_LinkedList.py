@@ -49,10 +49,12 @@ class LinkedList:
 
 # ------ Tips
 
-# check having valid data
+# check is None
 data = None
 print(not data)         # True
 print(data is None)     # True
+print(data == None)     # True
 data = 123
 print(not data)         # False
 print(data is None)     # False
+print(data == None)     # False
