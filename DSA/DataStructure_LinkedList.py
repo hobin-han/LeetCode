@@ -52,5 +52,7 @@ class LinkedList:
 # check having valid data
 data = None
 print(not data)         # True
+print(data is None)     # True
 data = 123
 print(not data)         # False
+print(data is None)     # False
