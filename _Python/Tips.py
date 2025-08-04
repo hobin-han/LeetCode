@@ -21,6 +21,10 @@ a = "" + 'a'
 # string to char array
 a = list("string")
 
+# upper, lower
+a = "a".upper()
+a = "A".lower()
+
 
 # ------ Not & None
 
