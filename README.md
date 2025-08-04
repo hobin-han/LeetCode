@@ -4,3 +4,4 @@
 
 # Python
 - [Study Notes](https://github.com/hobin-han/LeetCode/blob/main/_Python/Basic.md)
+- [Tips](https://github.com/hobin-han/LeetCode/blob/main/_Python/Tips.py)
