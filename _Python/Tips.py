@@ -25,6 +25,10 @@ a = list("string")
 a = "a".upper()
 a = "A".lower()
 
+# split, join
+a = "a/b/c".split('/')
+a = '/'.join(['a', 'b', 'c'])
+
 
 # ------ Not & None
 
