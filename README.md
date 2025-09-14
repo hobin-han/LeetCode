@@ -7,4 +7,4 @@
 - [Tips](https://github.com/hobin-han/LeetCode/blob/main/_Python/Tips.py)
 
 # Swift
-- [Study Notes](https://github.com/hobin-han/LeetCode/blob/main/_Swift/Basic.playground)
+- [Study Notes](https://github.com/hobin-han/LeetCode/blob/main/_Swift/Basic.playground/Contents.swift)
